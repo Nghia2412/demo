@@ -25,3 +25,6 @@ int main()
           
 	return 0;
 }
+ int tich(int a, int b){
+  retun tich = a*b;
+}
