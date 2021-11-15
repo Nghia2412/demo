@@ -14,6 +14,12 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+        if(phepToan =='+')
+            cout<<"Tong="<<tong(a,b);
+        if(phepToan =='-')
+            cout<<"Hieu="<<hieu(a,b);
+        cout<<endl;
 	system("pause");
+          
 	return 0;
 }
