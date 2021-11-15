@@ -15,7 +15,7 @@ int main()
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
         if(phepToan =='+')
-            cout<<"Tong="<<tong(a,b);
+            cout<<"Tong="<<tong(a,b);<<endl;
         if(phepToan =='-')
             cout<<"Hieu="<<hieu(a,b);
         cout<<endl;
